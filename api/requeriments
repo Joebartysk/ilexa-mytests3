@@ -1,0 +1,28 @@
+# requirements.txt
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+asyncpg
+python-dotenv
+asyncpg
+pydantic
+pydantic-settings
+alembic
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+zeep  # Para peticiones SOAP
+requests
+aiohttp  # Para peticiones asíncronas
+pytest
+httpx  # Para testing
+pyOpenSSL
+pycryptodome
+lxml
+pydantic
+sqlalchemy
+psycopg2-binary
+pandas
+hvac
+jinja2
+pytz
