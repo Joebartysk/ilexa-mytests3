@@ -49,7 +49,6 @@ export function InbursaView() {
   const handleFileSelect = (event: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = event.target.files?.[0];
     if (selectedFile) {
-      // Validar que sea un archivo Excel
       const validExtensions = ['.xlsx', '.xls'];
       const fileExtension = selectedFile.name.toLowerCase().slice(selectedFile.name.lastIndexOf('.'));
       
